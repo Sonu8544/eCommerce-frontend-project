@@ -163,6 +163,7 @@ p {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 30px 0px 0px 0px;
 }
 
 .feature-box {
