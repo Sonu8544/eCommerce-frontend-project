@@ -77,6 +77,10 @@ p {
     padding: 20px 80px;
     background: var(--nav-bg-color);
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar {
@@ -117,4 +121,38 @@ p {
 
 /* Hero Section */
 
+#hero-section {
+    background-image: url(img//hero4.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 25% right 0%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+#hero-section h4{
+    padding-bottom: 15px;
+}
+
+#hero-section h1{
+    color: var(--nav-secondry-color);
+}
+
+#hero-section button{
+    background-image: url(img//button.png);
+    background-color: transparent;
+    color: var(--nav-secondry-color);
+    border: none;
+    padding: 14px 80px 14px 65px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    background-repeat: no-repeat;
+
+}
 /* Product Section */
