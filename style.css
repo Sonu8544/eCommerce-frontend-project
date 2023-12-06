@@ -131,19 +131,19 @@ p {
     padding: 0 80px;
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: center;
 }
 
-#hero-section h4{
+#hero-section h4 {
     padding-bottom: 15px;
 }
 
-#hero-section h1{
+#hero-section h1 {
     color: var(--nav-secondry-color);
 }
 
-#hero-section button{
+#hero-section button {
     background-image: url(img//button.png);
     background-color: transparent;
     color: var(--nav-secondry-color);
@@ -153,6 +153,56 @@ p {
     font-weight: 700;
     cursor: pointer;
     background-repeat: no-repeat;
-
 }
-/* Product Section */
+
+/*---------------- Feature Section------------ */
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature-box {
+    position: relative;
+    width: 180px;
+    padding: 12px 12px 15px 12px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0.06);
+    border-radius: 10px;
+    margin: 15px 15px;
+}
+
+.feature-box img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-box:hover img {
+    transform: scale(1.07);
+}
+
+.feature-box h6 {
+    text-align: center;
+    padding: 7px 10px;
+    line-height: 1;
+    border-radius: 5px;
+    color: #088178;
+    background-color: #fddde4;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.section-padding {
+    padding: 40px 80px;
+}
+
+.feature-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Feature Product Section */
+
