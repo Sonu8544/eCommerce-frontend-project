@@ -40,7 +40,7 @@ h6 {
 p {
     font-size: 16px;
     color: #465b52;
-    margin: 15px 0 20px 0;
+    /* margin: 15px 0 20px 0; */
 }
 
 .p1 {
@@ -157,6 +157,7 @@ p {
 
 /*---------------- Feature Section------------ */
 
+/* Feature Product Section */
 #feature {
     display: flex;
     align-items: center;
@@ -168,9 +169,18 @@ p {
     position: relative;
     width: 180px;
     padding: 12px 12px 15px 12px;
-    box-shadow: 0px 0px 15px rgb(0, 0, 0.06);
+    box-shadow: 0px 0px 7px rgb(0, 0, 0.06);
     border-radius: 10px;
     margin: 15px 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.feature-box:hover {
+    box-shadow: 0px 0px 15px rgb(0, 0, 0.06);
+}
+
+#feature-box {
+    width: 230px;
 }
 
 .feature-box img {
@@ -190,12 +200,16 @@ p {
     border-radius: 5px;
     color: #088178;
     background-color: #fddde4;
-    margin-top: 25px;
+    margin-top: 15px;
     display: inline-block;
 }
 
 .section-padding {
     padding: 40px 80px;
+}
+
+.section-margin {
+    margin: 15px 0px;
 }
 
 .feature-title {
@@ -204,5 +218,53 @@ p {
     align-items: center;
 }
 
-/* Feature Product Section */
+.featureproduct-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
 
+#feature-product-detail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+#feature-product-detail p {
+    padding: 10px 0px;
+}
+
+#feature-product-detail>h4 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+#feature-product-detail h4 {
+    font-weight: 400;
+    color: black;
+}
+
+.f-p-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-product-rating {
+    padding-bottom: 15px;
+    color: orange;
+}
+
+.cart {
+    padding: 6px 12px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px rgb(0, 0, 0.06);
+    cursor: pointer;
+}
+
+.cart:hover {
+    box-shadow: 0px 0px 7px rgb(255, 165, 0);
+}
