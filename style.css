@@ -416,10 +416,11 @@ p {
 }
 
 #banner3 .banner2 {
-    background-image: url(img/banner/b4.jpg); 
+    background-image: url(img/banner/b4.jpg);
 }
+
 #banner3 .banner3 {
-    background-image: url(img/banner/b18.jpg); 
+    background-image: url(img/banner/b18.jpg);
 }
 
 #banner3 .banner-box h2 {
@@ -439,9 +440,71 @@ p {
 #banner3 .banner-box span {
     color: orange;
 }
+
 #banner3 .banner2 span {
     color: orange;
 }
+
 #banner3 .banner3 span {
     color: orange;
+}
+
+
+/* News Letter */
+#newsLetter {
+    padding: 4rem 80px;
+    margin: 3rem 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 25% 30%;
+    background-color: #041e42;
+}
+
+#newsLetter h4 {
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+#newsLetter p {
+    font-size: 14px;
+    color: #818ea0;
+    font-weight: 600;
+}
+
+#newsLetter p span {
+    font-size: 14px;
+    color: #ffbd27;
+    font-weight: 600;
+}
+
+.news-form {
+    display: flex;
+    width: 30%;
+}
+
+#newsLetter input {
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsLetter button {
+    background-color: #088178;
+    font-size: 16px;
+    border-radius: 4px;
+    text-wrap: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
