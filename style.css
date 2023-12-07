@@ -68,6 +68,18 @@ p {
     object-fit: cover;
 }
 
+.button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 30px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
 
 /* Navbar Section */
 #header {
@@ -316,4 +328,68 @@ p {
     background-color: orange;
     color: black;
     font-weight: 700;
+}
+
+/* Dual Image Banner */
+#dual-image-banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+#dual-image-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/banner/b17.jpg);
+    min-width: 665px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+
+#dual-image-banner .banner-box2 {
+    background-image: url(img/banner/b10.jpg);
+}
+
+#dual-image-banner h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#dual-image-banner h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#dual-image-banner p {
+    color: white;
+}
+
+#dual-image-banner span {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#dual-image-banner .button {
+    margin: 20px 0px;
+}
+
+.banner-box .p-button {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#dual-image-banner .button:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
 }
