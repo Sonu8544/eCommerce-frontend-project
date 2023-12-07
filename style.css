@@ -280,41 +280,40 @@ p {
     background-position: center;
     min-height: 30vh;
     margin: 50px 0px;
-  }
+}
 
-  #home-page-banner-image span{
+#home-page-banner-image span {
     color: orange;
     font-weight: 600;
-  }
+}
 
-  .feature-product-button button {
+.feature-product-button button {
     background-color: white;
     color: black;
     font-size: 16px;
     font-weight: 500;
     padding: 8px 13px;
     outline: none;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Added transition property */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Added transition property */
     border: none;
-  }
+}
 
-  #home-page-banner-image p {
+#home-page-banner-image h4 {
     color: white;
-    font-size: 22px;
-    font-weight: 500;
-  }
+}
 
-  #home-page-banner-image h1 {
+#home-page-banner-image h1 {
     color: white;
     font-weight: 300;
-  }
+}
 
-  .feature-product-button {
-    transition: transform 0.5s ease; /* Added transition property for the container */
-  }
+.feature-product-button {
+    transition: transform 0.5s ease;
+}
 
-  .feature-product-button button:hover {
+.feature-product-button button:hover {
     background-color: orange;
     color: black;
     font-weight: 700;
-  }
+}
