@@ -393,3 +393,55 @@ p {
     color: white;
     border: 1px solid white;
 }
+
+/* Banner Three */
+#banner3 {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    flex-wrap: wrap;
+}
+
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/banner/b7.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner3 .banner2 {
+    background-image: url(img/banner/b4.jpg); 
+}
+#banner3 .banner3 {
+    background-image: url(img/banner/b18.jpg); 
+}
+
+#banner3 .banner-box h2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+    padding: 0px 20px;
+}
+
+#banner3 .banner-box h3 {
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 0px 20px;
+}
+
+#banner3 .banner-box span {
+    color: orange;
+}
+#banner3 .banner2 span {
+    color: orange;
+}
+#banner3 .banner3 span {
+    color: orange;
+}
