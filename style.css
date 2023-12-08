@@ -80,6 +80,9 @@ p {
     transition: 0.2s;
 }
 
+span {
+    color: orange;
+}
 
 /* Navbar Section */
 #header {
@@ -507,4 +510,32 @@ p {
     text-wrap: nowrap;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+/*----------- Shop Page---------- */
+#shop-page-banner {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(img/banner/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh;
+
+}
+
+#shop-page-banner h1 {
+    color: white;
+    font-weight: 300;
+}
+
+#shop-page-banner h4 {
+    color: white;
+}
+
+#shop-page-banner span {
+    color: orange;
+    font-weight: 600;
 }
