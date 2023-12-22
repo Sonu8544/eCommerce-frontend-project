@@ -1,0 +1,22 @@
+#bg-color-footer {
+    background-color: rgb(23, 22, 22);
+   margin-top: 5rem;
+}
+
+#copyright-area{
+    background-color: rgb(15, 14, 14);
+}
+
+@media (min-width: 800px) {
+    .container.mx-auto.py-8 {
+        max-width: 80%;
+    }
+
+    .mx-auto {
+        max-width: 80%;
+    }
+
+    #shop-page-max-width {
+        max-width: 80%;
+    }
+}
