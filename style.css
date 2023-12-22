@@ -326,21 +326,19 @@ span {
     color: orange;
 }
 
-
+/* -------  Add To Cart Button -------- */
 .buttonClass {
-    color: #fff;
-    color: black;
-    background-color: white;
-    border: 1px solid black;
+    color: white;
+    background-color: black;
     padding: 10px 0px;
     transition: 0.4s ease-in-out;
 }
 
 
 .buttonClass:hover {
-    color: white;
-    background-color: black;
-    border: none;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
 }
 
 
