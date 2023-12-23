@@ -360,6 +360,7 @@ span {
     background-position: center;
     min-height: 30vh;
     margin: 50px 0px;
+    min-height: 280px;
 }
 
 
@@ -555,6 +556,7 @@ span {
     background-repeat: no-repeat;
     background-position: 25% 30%;
     background-color: #041e42;
+    min-height: 280px;
 }
 
 
