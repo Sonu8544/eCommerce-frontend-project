@@ -1,0 +1,60 @@
+#shop-page-banner.blog-page-image-banner {
+    background-image: url(img//banner//b19.jpg);
+    min-height: 45vh;
+}
+
+.white {
+    color: white;
+}
+
+
+#blog {
+    max-height: 50vh;
+    display: flex;
+    max-width: 80%;
+    margin: 0px auto;
+    padding: 2rem 0;
+}
+
+.blog-image {
+    max-width: 40%;
+    position: relative;
+}
+
+.blog-image-text {
+    position: absolute;
+    bottom: -2.5rem;
+    display: flex;
+    left: 30%;
+    z-index: 0;
+    color: #465b52;
+}
+
+.blog-image img {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.blog-text {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    margin: auto 0px;
+    gap: 10px;
+}
+
+.blog-text p {
+    line-height: 1;
+}
+
+.blog-text h4 {
+    color: #465b52;
+}
+
+.blog-text a {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
