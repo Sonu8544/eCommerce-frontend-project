@@ -1,0 +1,34 @@
+#home-page-banner-image.about-page-banner-image {
+    background-image: url(img/about/banner.png);
+}
+
+#home-page-banner-image {
+    margin: 0px 0px;
+}
+
+.about-section {
+    max-height: 80vh;
+    max-width: 90%;
+    display: flex;
+    gap: 3rem;
+    margin: 3rem auto;
+}
+
+.about-image {
+    max-width: 50%;
+    max-height: 80vh;
+}
+
+.about-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.about-text{
+    max-width: 50%;
+    max-height: 80vh; 
+    display: flex;
+    margin: auto 0px;
+    flex-direction: column;
+    gap: 20px;
+}
