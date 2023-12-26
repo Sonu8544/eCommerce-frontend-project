@@ -870,3 +870,77 @@ ul {
         max-width: 80%;
     }
 }
+
+
+/*-------------------- Brand logo ----------------------*/
+
+
+#new-product {
+    max-width: 90%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+#new-product img {
+    display: block;
+    width: 180px;
+    min-height: 130px;
+    margin: 0px auto;
+    padding-left: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+#new-product section {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#new-product article {
+    display: flex;
+    width: 200%;
+    animation: bannermove 5s linear infinite;
+}
+
+#new-product div {
+    width: 100%;
+}
+
+
+#new-product ul {
+    display: flex;
+    background: red;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+
+#new-product li {
+    width: 100%;
+    background: blue;
+}
+
+
+#new-product li:nth-child(2) {
+    background: green;
+}
+
+
+#new-product li:nth-child(3) {
+    background: yellow;
+}
+
+
+@keyframes bannermove {
+    0% {
+        transform: translateX(0);
+    }
+
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
