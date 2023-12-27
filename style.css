@@ -259,7 +259,7 @@ span {
     border-radius: 5px;
     color: #088178;
     background-color: #fddde4;
-    margin-top: 15px;
+    margin-top: 2rem;
     display: inline-block;
 }
 
@@ -886,7 +886,6 @@ ul {
     width: 180px;
     min-height: 130px;
     margin: 0px auto;
-    padding-left: 50px;
     object-fit: cover;
     object-position: center;
 }
@@ -911,7 +910,6 @@ ul {
 
 #new-product ul {
     display: flex;
-    background: red;
     list-style-type: none;
     padding-left: 0;
     margin: 0;
@@ -920,19 +918,7 @@ ul {
 
 #new-product li {
     width: 100%;
-    background: blue;
 }
-
-
-#new-product li:nth-child(2) {
-    background: green;
-}
-
-
-#new-product li:nth-child(3) {
-    background: yellow;
-}
-
 
 @keyframes bannermove {
     0% {
