@@ -159,7 +159,9 @@ span {
 
 
 #hero-section {
-    background-image: url(img//hero4.png);
+    /* background-image: url(img//hero4.png); */
+    background-image: url(img/banner.jpg);
+
     height: 90vh;
     width: 100%;
     background-size: cover;
