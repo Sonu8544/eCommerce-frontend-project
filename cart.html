@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eCommerce Frontend Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <!-- Nav Section -->
+    <section id="header">
+      <a href="index.html"> <img src="img/logo.png" alt="" /> </a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="singleProduct.html">singleProduct</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- cart items details -->
+    <div class="small-container cart-page">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="https://i.ibb.co/B3vYjvw/buy-1.jpg" alt="" />
+              <div>
+                <p>Red Printed T-Shirt</p>
+                <small>Price ₹500.00</small>
+                <br />
+                <a href="#">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>₹500.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="https://i.ibb.co/qmSHWx7/buy-2.jpg" alt="" />
+              <div>
+                <p>HRX Shoes</p>
+                <small>Price ₹1500.00</small>
+                <br />
+                <a href="#">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>₹1500.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="https://i.ibb.co/NyYtY31/buy-3.jpg" alt="" />
+              <div>
+                <p>Reebok Tracksuit</p>
+                <small>Price ₹1500.00</small>
+                <br />
+                <a href="#">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>₹1500.00</td>
+        </tr>
+      </table>
+
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>₹3500.00</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>₹15.00</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>₹3515.00</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- News Latter -->
+    <section id="newsLetter">
+      <div class="news-text">
+        <h4>Sign for Newsletter</h4>
+        <p>
+          Lorem ipsum dolor sit amet consecteturadipisicing elit.<span>
+            Fugiat, numquam!
+          </span>
+        </p>
+      </div>
+      <div class="news-form">
+        <input type="text" placeholder="Your Email Address" />
+        <button class="button">Sign Up</button>
+      </div>
+    </section>
+
+    <!----------------  Footer  ------------------->
+    <footer class="footer-section bg-gray-800 text-white">
+      <div class="container mx-auto py-8">
+        <div class="footer-cta border-b border-gray-700 pb-5">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="mb-8">
+              <i class="fas fa-map-marker-alt text-2xl mb-2"></i>
+              <div class="cta-text">
+                <h4 class="text-lg font-semibold">Find us</h4>
+                <span>1010 Avenue, sw 54321, chandigarh</span>
+              </div>
+            </div>
+            <div class="mb-8">
+              <i class="fas fa-phone text-2xl mb-2"></i>
+              <div class="cta-text">
+                <h4 class="text-lg font-semibold">Call us</h4>
+                <span>9876543210 0</span>
+              </div>
+            </div>
+            <div class="mb-8">
+              <i class="far fa-envelope-open text-2xl mb-2"></i>
+              <div class="cta-text">
+                <h4 class="text-lg font-semibold">Mail us</h4>
+                <span>mail@info.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="mb-8">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html">
+                    <img
+                      src="https://i.ibb.co/QDy827D/ak-logo.png"
+                      class="w-64 h-64"
+                      alt="logo"
+                    />
+                  </a>
+                </div>
+                <div class="footer-text">
+                  <p class="mt-4">
+                    Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
+                    sed do eiusmod tempor incididuntut consec tetur adipisicing
+                    elit,Lorem ipsum dolor sit amet.
+                  </p>
+                </div>
+                <div class="footer-social-icon">
+                  <!-- <span class="mr-4">Follow us</span> -->
+                  <a href="#" class="text-blue-500"
+                    ><i class="fab fa-facebook-f facebook-bg"></i
+                  ></a>
+                  <a href="#" class="text-blue-400"
+                    ><i class="fab fa-twitter twitter-bg"></i
+                  ></a>
+                  <a href="#" class="text-red-500"
+                    ><i class="fab fa-google-plus-g google-bg"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="mb-8">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3 class="text-xl font-semibold mb-4">Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">about</a></li>
+                  <li><a href="#">services</a></li>
+                  <li><a href="#">portfolio</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Our Services</a></li>
+                  <li><a href="#">Expert Team</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Latest News</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mb-8">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3 class="text-xl font-semibold mb-4">Mail Us</h3>
+                </div>
+                <div class="footer-text mb-5">
+                  <p>Don’t miss our new feeds, kindly fill the form below.</p>
+                </div>
+                <div class="subscribe-form">
+                  <form action="#" class="flex">
+                    <input
+                      type="text"
+                      placeholder="Email Address"
+                      class="w-full p-4 border border-gray-300 mr-2"
+                    />
+                    <button class="bg-blue-500 text-white p-4">
+                      <i class="fab fa-telegram-plane"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-area bg-gray-800 py-6">
+        <div class="container mx-auto">
+          <div class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="text-center lg:text-left mb-4 lg:mb-0">
+              <div class="copyright-text">
+                <p>
+                  Copyright &copy; 2023, All Right Reserved
+                  <a
+                    href="https://codepen.io/anupkumar92/"
+                    class="text-blue-500"
+                    >Sonu Kumar</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="hidden lg:block text-right">
+              <div class="footer-menu">
+                <ul class="flex">
+                  <li class="mr-4"><a href="#" class="text-white">Home</a></li>
+                  <li class="mr-4"><a href="#" class="text-white">Terms</a></li>
+                  <li class="mr-4">
+                    <a href="#" class="text-white">Privacy</a>
+                  </li>
+                  <li class="mr-4">
+                    <a href="#" class="text-white">Policy</a>
+                  </li>
+                  <li><a href="#" class="text-white">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
